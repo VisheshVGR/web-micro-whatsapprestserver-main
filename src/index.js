@@ -1,6 +1,7 @@
 import events from 'events';
 import express from 'express';
 import bodyParser from 'body-parser';
+import cors from 'cors';
 import { route } from '../src/routes.js';
 import { sessionManager } from './sessionManager.js';
 import { clientSessionHelper } from './utils/helpers.js';
@@ -8,6 +9,7 @@ events.EventEmitter.defaultMaxListeners = 100;
 const app = express();
 const port = 4000;
 
+app.use(cors());
 app.use(express.json());
 app.use(
   bodyParser.urlencoded({
