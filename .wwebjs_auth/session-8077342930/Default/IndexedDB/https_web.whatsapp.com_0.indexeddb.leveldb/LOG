@@ -1,0 +1,31 @@
+2023/03/18-20:58:14.639 cfc5 Reusing MANIFEST /home/vishesh/Desktop/whatsappRestServer-main/.wwebjs_auth/session-8077342930/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/18-20:58:14.639 cfc5 Recovering log #18
+2023/03/18-20:58:14.666 cfc5 Reusing old log /home/vishesh/Desktop/whatsappRestServer-main/.wwebjs_auth/session-8077342930/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000018.log 
+2023/03/18-20:58:14.667 cfc5 Delete type=2 #14
+2023/03/18-20:58:14.667 cfc5 Delete type=2 #20
+2023/03/18-20:58:14.731 cfc6 Level-0 table #24: started
+2023/03/18-20:58:14.742 cfc6 Level-0 table #24: 98571 bytes OK
+2023/03/18-20:58:14.750 cfc6 Delete type=0 #18
+2023/03/18-20:58:14.751 cfc6 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/03/18-20:58:14.756 cfcb Level-0 table #26: started
+2023/03/18-20:58:14.762 cfcb Level-0 table #26: 1379 bytes OK
+2023/03/18-20:58:14.771 cfcb Delete type=0 #23
+2023/03/18-20:58:14.771 cfcb Manual compaction at level-0 from '\x00\x0e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0e\x05\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 19850 : 0
+2023/03/18-20:58:14.771 cfcb Compacting 1@0 + 1@1 files
+2023/03/18-20:58:14.787 cfcb Generated table #27@0: 2709 keys, 48146 bytes
+2023/03/18-20:58:14.787 cfcb Compacted 1@0 + 1@1 files => 48146 bytes
+2023/03/18-20:58:14.795 cfcb compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/18-20:58:14.796 cfcb Delete type=2 #26
+2023/03/18-20:58:14.796 cfcb Manual compaction at level-0 from '\x00\x0e\x05\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 19850 : 0 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/03/18-20:58:14.798 cfcb Level-0 table #29: started
+2023/03/18-20:58:14.804 cfcb Level-0 table #29: 506 bytes OK
+2023/03/18-20:58:14.813 cfcb Delete type=2 #24
+2023/03/18-20:58:14.813 cfcb Delete type=0 #25
+2023/03/18-20:58:14.814 cfd7 Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x02\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 19879 : 0
+2023/03/18-20:58:14.814 cfd7 Compacting 1@0 + 1@1 files
+2023/03/18-20:58:14.828 cfd7 Generated table #30@0: 2684 keys, 47315 bytes
+2023/03/18-20:58:14.828 cfd7 Compacted 1@0 + 1@1 files => 47315 bytes
+2023/03/18-20:58:14.834 cfd7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/18-20:58:14.835 cfd7 Delete type=2 #29
+2023/03/18-20:58:14.835 cfd7 Manual compaction at level-0 from '\x00\x0d\x02\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 19879 : 0 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/03/18-20:58:14.844 cfd7 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
